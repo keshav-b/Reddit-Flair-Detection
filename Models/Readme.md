@@ -1,4 +1,4 @@
 ## Graphs for PART 2: EDA
-<image src="Graphs/graph1.png">
+<image src="Graphs/title.png"> Analysis on Title of Reddit Post
 
-<image src="Graphs/graph2.png">
+<image src="Graphs/title.png"> Analysis on Body of Reddit Post
