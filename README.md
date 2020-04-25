@@ -47,7 +47,7 @@ Used the following 5 Machine Learning models, it can be found at [[Classifiers.]
 **It is observed that out of the 5 models used, Linear SVM performs the best, followed by Logistic Regression and Random Forest.**
 
 ## Web App
-The Web application for this is done using Flask, its files can be found at [[Flask_files.]()]. And it is hosted using Heroku, which can be found at [WebPage.]()]
+The Web application for this is done using Flask, its files can be found at [[Flask_files.]()]. And it is hosted using Heroku, which can be found at [[WebPage.]()]
 
 ## References
 1. [[Scrapping data from Reddit using PRAW.](https://www.storybench.org/how-to-scrape-reddit-with-python/)]
