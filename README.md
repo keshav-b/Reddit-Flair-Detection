@@ -1,2 +1,8 @@
 # Reddit-Flair-Detection
-Prediction of the flair of a Reddit post
+Detection of Reddit Post's flairs using machine learning algorithms. [[WebPage](www.google.com)]
+
+
+## Instalation
+
+## 
+
