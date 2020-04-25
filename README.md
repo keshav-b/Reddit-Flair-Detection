@@ -3,7 +3,7 @@
 
 Detection of Reddit Post's flairs using machine learning algorithms [[WebPage.]()]
 <p align="center">
-  <img src="Images/output.gif" alt="Reddit-flair-detection"></img>
+  <img src="Images/sample_reddit.gif" alt="Reddit-flair-detection"></img>
 </p>
 
 ## About
