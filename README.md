@@ -10,7 +10,7 @@ Detection of Reddit Post's flairs using machine learning algorithms [[WebPage.](
 This repo illustrates the task of data acquisition of reddit posts from the [[r/india](https://www.reddit.com/r/india/)] subreddit, performing Exploratory data analysis (EDA) on the acquired data, classification of the posts into 9 different flairs and deploying the best model as a web service.
 
 ## Dataset
-The data is scrapped by using Reddit's official API [[PRAW](https://praw.readthedocs.io/en/latest/)]. This can be found at this [[notebook.](https://github.com/keshav-b/Reddit-Flair-Detection/blob/master/Models/Part%20I%20-%20Reddit%20Data%20Collection.ipynb)]
+The data is scrapped by using Reddit's official API [[PRAW](https://praw.readthedocs.io/en/latest/)]. This can be found in this [[notebook.](https://github.com/keshav-b/Reddit-Flair-Detection/blob/master/Models/Part%20I%20-%20Reddit%20Data%20Collection.ipynb)]
 For further information on how to scrap data refer [[this site.](https://www.storybench.org/how-to-scrape-reddit-with-python/)]
 
 ## Installation
@@ -32,10 +32,10 @@ We are considering 9 flairs. The number of samples per class is:
 | 9.    | Policy/Economy     | 207     | 
 
 ## Exploratory Data Analysis
-EDA for the above mentioned classes is performed. EDA is done mainly on the title and body of the extracted Reddit posts. It can be found at [[EDA.](https://github.com/keshav-b/Reddit-Flair-Detection/blob/master/Models/Part%20II%20-%20Exploratory%20Data%20Analysis%20(EDA).ipynb)]
+EDA for the above mentioned classes is performed. EDA is done mainly on the title and body of the extracted Reddit posts. It can be found in [[EDA.](https://github.com/keshav-b/Reddit-Flair-Detection/blob/master/Models/Part%20II%20-%20Exploratory%20Data%20Analysis%20(EDA).ipynb)]
 
 ## Classification
-Used the following 5 Machine Learning models, it can be found at [[Classifiers.](https://github.com/keshav-b/Reddit-Flair-Detection/blob/master/Models/Part%20III%20-%20Building%20a%20Flare%20Detector.ipynb)]
+Used the following 5 Machine Learning models, it can be found in [[Classifiers.](https://github.com/keshav-b/Reddit-Flair-Detection/blob/master/Models/Part%20III%20-%20Building%20a%20Flare%20Detector.ipynb)]
 |Model Used           |Accuracy |
 | ---                 | ---     | 
 |Logistic Regression  | 83%     |
@@ -47,7 +47,7 @@ Used the following 5 Machine Learning models, it can be found at [[Classifiers.]
 **It is observed that out of the 5 models used, Linear SVM performs the best, followed by Logistic Regression and Random Forest.**
 
 ## Web App
-The Web application for this is done using Flask, its files can be found at [[Flask_files.]()]. And it is hosted using Heroku, which can be found at [[WebPage.]()]
+The Web application for this is done using Flask, its files can be found in [[Flask_files.]()]. And it is hosted using Heroku, which can be found at [[WebPage.]()]
 
 ## References
 1. [[Scrapping data from Reddit using PRAW.](https://www.storybench.org/how-to-scrape-reddit-with-python/)]
