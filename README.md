@@ -37,6 +37,7 @@ EDA for the above mentioned classes is performed. EDA is done mainly on the titl
 ## Classification
 Used the following 5 Machine Learning models, it can be found at [[Classifiers.](https://github.com/keshav-b/Reddit-Flair-Detection/blob/master/Models/Part%20III%20-%20Building%20a%20Flare%20Detector.ipynb)]
 |Model Used           |Accuracy |
+| ---                 | ---     | 
 |Logistic Regression  | 83%     |
 |Linear SVM           | 84%     |
 |K-Nearest Neighbours | 63%     |
