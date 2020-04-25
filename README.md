@@ -1,7 +1,7 @@
 # Reddit-Flair-Detection
 
 
-Detection of Reddit Post's flairs using machine learning algorithms. [[WebPage](http://www.google.com)]
+Detection of Reddit Post's flairs using machine learning algorithms [[WebPage.]()]
 <p align="center">
   <img src="Images/output.gif" alt="Reddit-flair-detection"></img>
 </p>
@@ -15,5 +15,38 @@ For further information on how to scrap data refer [[this site.](https://www.sto
 
 ## Installation
 All the required libraries can be found at [[requirements.txt](https://github.com/keshav-b/Reddit-Flair-Detection/blob/master/requirements.txt)]
-## 
 
+## Flair Classes
+We are considering 9 flairs. The number of samples per class is:
+
+| Label | Flair              | Samples | 
+| ---   | ---                | ---     | 
+| 1.    | Coronavirus        | 241     | 
+| 2.    | Politics           | 241     | 
+| 3.    | Sports             | 227     | 
+| 4.    | AskIndia           | 226     | 
+| 5.    | Photography        | 221     | 
+| 6.    | Science/Technology | 220     | 
+| 7.    | Business/Finance   | 217     | 
+| 8.    | Non-Political      | 213     | 
+| 9.    | Policy/Economy     | 207     | 
+
+## Exploratory Data Analysis
+EDA for the above mentioned classes is performed. EDA is done mainly on the title and body of the extracted Reddit posts. It can be found at [[EDA.](https://github.com/keshav-b/Reddit-Flair-Detection/blob/master/Models/Part%20II%20-%20Exploratory%20Data%20Analysis%20(EDA).ipynb)]
+
+## Classification
+Used the following 5 Machine Learning models, it can be found at [[Classifiers.](https://github.com/keshav-b/Reddit-Flair-Detection/blob/master/Models/Part%20III%20-%20Building%20a%20Flare%20Detector.ipynb)]
+|Model Used           |Accuracy |
+|Logistic Regression  | 83%     |
+|Linear SVM           | 84%     |
+|K-Nearest Neighbours | 63%     |
+|Random Forest        | 82%     |
+|Naive Bayes          | 69%     |
+
+**It is observed that out of the 5 models used, Linear SVM performs the best, followed by Logistic Regression and Random Forest.**
+
+## Web App
+The Web application for this is done using Flask, its files can be found at [[Flask_files.]()]. And it is hosted using Heroku, which can be found at [WebPage.]()]
+
+## References
+1. [[Scrapping data from Reddit using PRAW.](https://www.storybench.org/how-to-scrape-reddit-with-python/)]
