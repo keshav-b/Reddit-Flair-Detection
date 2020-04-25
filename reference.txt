@@ -1,7 +1,0 @@
-https://github.com/akshaybhatia10/Reddit-Flair-Detection
-
-https://github.com/radonys/Reddit-Flair-Detector
-
-https://towardsdatascience.com/multi-class-text-classification-model-comparison-and-selection-5eb066197568
-
-https://www.storybench.org/how-to-scrape-reddit-with-python/
