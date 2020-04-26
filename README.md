@@ -18,7 +18,7 @@ All the required libraries can be found at [[requirements.txt](https://github.co
 `conda install --file requirements.txt`
 
 ## Flair Classes
-We are considering 9 flairs. The number of samples per class is: (_The reason for choosing 9 flairs can be found_[Reddit Data Collection.ipynb.](https://github.com/keshav-b/Reddit-Flair-Detection/blob/master/Models/Part%20I%20-%20Reddit%20Data%20Collection.ipynb))
+We are considering 9 flairs. The number of samples per class is: (_The reason for choosing 9 flairs can be found _[Reddit Data Collection.ipynb.](https://github.com/keshav-b/Reddit-Flair-Detection/blob/master/Models/Part%20I%20-%20Reddit%20Data%20Collection.ipynb))
 
 | Label | Flair              | Samples | 
 | ---   | ---                | ---     | 
@@ -33,10 +33,10 @@ We are considering 9 flairs. The number of samples per class is: (_The reason fo
 | 9.    | Policy/Economy     | 207     | 
 
 ## Exploratory Data Analysis
-EDA for the above mentioned classes is performed. EDA is done mainly on the title and body of the extracted Reddit posts. It can be found in [[EDA.](https://github.com/keshav-b/Reddit-Flair-Detection/blob/master/Models/Part%20II%20-%20Exploratory%20Data%20Analysis%20(EDA).ipynb)]
+EDA for the above mentioned classes is performed. EDA is done mainly on the title and body of the extracted Reddit posts. It can be found in [[Exploratory Data Analysis (EDA).ipynb](https://github.com/keshav-b/Reddit-Flair-Detection/blob/master/Models/Part%20II%20-%20Exploratory%20Data%20Analysis%20(EDA).ipynb)]
 
 ## Classification
-Used the following 5 Machine Learning models, it can be found in [[Classifiers.](https://github.com/keshav-b/Reddit-Flair-Detection/blob/master/Models/Part%20III%20-%20Building%20a%20Flare%20Detector.ipynb)]
+Used the following 5 Machine Learning models, it can be found in [[Building a Flare Detector.ipynb](https://github.com/keshav-b/Reddit-Flair-Detection/blob/master/Models/Part%20III%20-%20Building%20a%20Flare%20Detector.ipynb)]
 |Model Used           |Accuracy |
 | ---                 | ---     | 
 |Logistic Regression  | 83%     |
