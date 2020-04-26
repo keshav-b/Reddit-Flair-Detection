@@ -10,7 +10,7 @@ Detection of Reddit Post's flairs using machine learning algorithms [[WebPage.](
 This repo illustrates the task of data acquisition of reddit posts from the [[r/india](https://www.reddit.com/r/india/)] subreddit, performing Exploratory data analysis (EDA) on the acquired data, classification of the posts into 9 different flairs and deploying the best model as a web service.
 
 ## Dataset
-The data is scrapped by using Reddit's official API [[PRAW](https://praw.readthedocs.io/en/latest/)]. This can be found in this [[notebook.](https://github.com/keshav-b/Reddit-Flair-Detection/blob/master/Models/Part%20I%20-%20Reddit%20Data%20Collection.ipynb)]
+The data is scrapped by using Reddit's official API [[PRAW](https://praw.readthedocs.io/en/latest/)]. This can be found in this [[Reddit Data Collection.ipynb.](https://github.com/keshav-b/Reddit-Flair-Detection/blob/master/Models/Part%20I%20-%20Reddit%20Data%20Collection.ipynb)]
 For further information on how to scrap data refer [[this site.](https://www.storybench.org/how-to-scrape-reddit-with-python/)]
 
 ## Installation
