@@ -14,7 +14,8 @@ The data is scrapped by using Reddit's official API [[PRAW](https://praw.readthe
 For further information on how to scrap data refer [[this site.](https://www.storybench.org/how-to-scrape-reddit-with-python/)]
 
 ## Installation
-All the required libraries can be found at [[requirements.txt](https://github.com/keshav-b/Reddit-Flair-Detection/blob/master/requirements.txt)]
+All the required libraries can be found at [[requirements.txt](https://github.com/keshav-b/Reddit-Flair-Detection/blob/master/requirements.txt)]. Create an environment in conda, and install these dependencies by:
+`conda install --file requirements.txt`
 
 ## Flair Classes
 We are considering 9 flairs. The number of samples per class is:
