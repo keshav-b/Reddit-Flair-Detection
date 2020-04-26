@@ -53,4 +53,4 @@ The Web application for this is done using Flask, its files can be found in [[Fl
 ## References
 1. [[Scrapping data from Reddit using PRAW.](https://www.storybench.org/how-to-scrape-reddit-with-python/)]
 2. [[Github repo](https://github.com/radonys/Reddit-Flair-Detector)]
-3. [[Medium post: Multi-Class Text Classification](https://towardsdatascience.com/multi-class-text-classification-model-comparison-and-selection-5eb066197568)]
+3. [[Medium article: Multi-Class Text Classification](https://towardsdatascience.com/multi-class-text-classification-model-comparison-and-selection-5eb066197568)]
