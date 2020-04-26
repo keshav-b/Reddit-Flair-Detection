@@ -18,7 +18,7 @@ All the required libraries can be found at [[requirements.txt](https://github.co
 `conda install --file requirements.txt`
 
 ## Flair Classes
-We are considering 9 flairs. The number of samples per class is: (_The reason for choosing 9 flairs can be found _[Reddit Data Collection.ipynb.](https://github.com/keshav-b/Reddit-Flair-Detection/blob/master/Models/Part%20I%20-%20Reddit%20Data%20Collection.ipynb))
+We are considering 9 flairs. The number of samples per class is: (_The reason for choosing 9 flairs can be found_ [Reddit Data Collection.ipynb.](https://github.com/keshav-b/Reddit-Flair-Detection/blob/master/Models/Part%20I%20-%20Reddit%20Data%20Collection.ipynb))
 
 | Label | Flair              | Samples | 
 | ---   | ---                | ---     | 
