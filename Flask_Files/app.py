@@ -18,9 +18,9 @@ import re
 app = Flask(__name__)
 
 # --------------------------------------------------------------------------------
-reddit = praw.Reddit(client_id = "udo3Q8u5ZjWoTw", 
-                     client_secret = "yNiOW6McpesaIbhiJjMeM-zlH_U", 
-                     user_agent = "Testing_api")
+reddit = praw.Reddit(client_id = "#", 
+                     client_secret = "#", 
+                     user_agent = "#")
 
 #nltk.download('punkt')
 #nltk.download('stopwords')
